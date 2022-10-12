@@ -1,0 +1,36 @@
+\documentclass{exercisesheet}
+
+% Information to populate headers
+\coursename{Example Course}
+\semesterlong{Winter Semester 2022/2023}
+\semestershort{WS 2022/2023}
+\university{University Name}
+\exercisenumber{1}
+\duedate{12 October, 2022, 14.00}
+
+\begin{document}
+    
+    % -----------------------------------------------------------------------
+    \makefancyheadfoot
+    \makemainheader
+    \groupmember{Group Member 1 - 123456 - groupmember1@university.edu}
+    \groupmember{Group Member 2 - 456789 - groupmember2@university.edu}
+    \vspace{0.5cm}
+    % -----------------------------------------------------------------------
+
+    \problemheader{1}{First Example Problem}{(3 Pts.)}
+    Main problem description goes here.
+    \answer{
+        Here's the answer!
+        \begin{equation}
+            e^{i\pi} = -1
+        \end{equation}
+    }
+
+    \newpage
+    \problemheader{2}{Second Example Problem}{(3 Pts.)}
+    Just here to show header on pages after the first. Can reference overall problem if needed with corresponding problem number: \hyperref[p:1]{(Problem 1)} or \hyperref[p:2]{(Problem 2)}.
+    
+\end{document}
+
+
