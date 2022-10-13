@@ -44,6 +44,7 @@
 %       Exercise Information
 % -------------------------------------------
 \newcommand*{\coursename}[1]{\def\@coursename{#1}}
+\newcommand*{\coursenameshort}[1]{\def\@coursenameshort{#1}}
 \newcommand*{\semesterlong}[1]{\def\@semesterlong{#1}}
 \newcommand*{\semestershort}[1]{\def\@semestershort{#1}}
 \newcommand*{\university}[1]{\def\@university{#1}}
@@ -58,7 +59,7 @@
     \pagestyle{fancy}
     \fancyhf{}
     \lhead{\textit{Exericse Sheet \@exercisenumber}}
-    \chead{\textit{\@coursename\ \@semestershort}}
+    \chead{\textit{\@coursenameshort\ \@semestershort}}
     \rhead{\textit{\@duedate}}
     \cfoot{\thepage}
 }
